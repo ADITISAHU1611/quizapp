@@ -1,0 +1,123 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container styles */
+  .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Heading styles */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Quiz container styles */
+  #quiz-container {
+    text-align: center;
+  }
+  
+  /* Start quiz button styles */
+  #start-quiz {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #start-quiz:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Quiz styles */
+  #quiz {
+    display: none;
+    margin-top: 20px;
+  }
+  
+  /* Question container styles */
+  #question-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Options container styles */
+  #options-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align options to the left */
+  }
+  
+  .option {
+    margin: 10px 0;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .option.correct {
+    background-color: #28a745; /* Green background for correct option */
+  }
+  
+  .option.incorrect {
+    background-color: #dc3545; /* Red background for incorrect option */
+  }
+  
+  .option:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Next button styles */
+  #next-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  #next-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Quiz completed message styles */
+  #quiz-completed {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+  }
+  
